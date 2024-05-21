@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protejamos Nuestros Mares</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #006994, #004d73);
+            color: white;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+        nav {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.7);
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+        }
+        h2 {
+            font-size: 2em;
+            margin-top: 0;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        ul {
+            font-size: 1.2em;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+        }
+        footer p {
+            margin: 0;
+        }
+        .images-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .images-container img {
+            max-width: 45%;
+            border: 2px solid white;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Protejamos Nuestros Mares</h1>
+    </header>
+    <nav>
+        <a href="#informacion">Información</a>
+        <a href="#efectos">Efectos Negativos</a>
+        <a href="#asociaciones">Foros y Organizaciones</a>
+        <a href="#imagenes">Antes y Después</a>
+    </nav>
+    <section id="informacion">
+        <h2>El Daño al Mar</h2>
+        <p>El mar enfrenta numerosos desafíos debido a las actividades humanas. La contaminación por plásticos, la sobrepesca, la destrucción de hábitats marinos y el cambio climático están causando estragos en los ecosistemas oceánicos. Es crucial tomar medidas para mitigar estos impactos y proteger la biodiversidad marina para las generaciones futuras.</p>
+    </section>
+    <section id="efectos">
+        <h2>Efectos Negativos de la Contaminación Marina</h2>
+        <p>La contaminación marina tiene varios efectos devastadores:</p>
+        <ul>
+            <li><strong>Destrucción de hábitats:</strong> Los arrecifes de coral y otros hábitats marinos son destruidos por actividades humanas.</li>
+            <li><strong>Intoxicación de la vida marina:</strong> Los residuos tóxicos y los plásticos son ingeridos por los animales marinos, causando enfermedades y muerte.</li>
+            <li><strong>Pérdida de biodiversidad:</strong> Muchas especies marinas están en peligro de extinción debido a la contaminación y la sobreexplotación.</li>
+            <li><strong>Impacto en la salud humana:</strong> Los contaminantes marinos pueden entrar en la cadena alimentaria y afectar la salud humana.</li>
+        </ul>
+    </section>
+    <section id="asociaciones">
+        <h2>Foros y Organizaciones que Cuidan el Mar</h2>
+        <p>Existen muchas organizaciones dedicadas a la protección de los océanos y la vida marina. Algunas de las más destacadas incluyen:</p>
+        <ul>
+            <li><strong>Ocean Conservancy:</strong> Trabaja para proteger el océano de los desafíos más grandes del planeta.</li>
+            <li><strong>Greenpeace:</strong> Lucha por la conservación de los océanos y la prohibición de prácticas destructivas.</li>
+            <li><strong>WWF (World Wildlife Fund):</strong> Realiza esfuerzos significativos para proteger los ecosistemas marinos y costeros.</li>
+            <li><strong>The Ocean Cleanup:</strong> Desarrolla tecnologías avanzadas para eliminar los plásticos de los océanos.</li>
+        </ul>
+        <p>Foros importantes para discutir y promover la protección del mar:</p>
+        <ul>
+            <li><strong>Our Ocean Conference:</strong> Reúne a líderes mundiales para comprometerse con la conservación del océano.</li>
+            <li><strong>World Ocean Summit:</strong> Un foro global para discutir las políticas y estrategias necesarias para un océano sostenible.</li>
+        </ul>
+    </section>
+    <section id="imagenes">
+        <h2>Imágenes del Mar: Antes y Después de la Contaminación</h2>
+        <div class="images-container">
+            <img src="https://via.placeholder.com/400x300?text=Antes+de+la+Contaminación" alt="Mar antes de la contaminación">
+            <img src="https://via.placeholder.com/400x300?text=Después+de+la+Contaminación" alt="Mar después de la contaminación">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Conciencia Marítima. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
